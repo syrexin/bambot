@@ -1,0 +1,318 @@
+2020-10-22 03:51:20 - info [app.js]: Initializing...
+2020-10-22 03:51:20 - info [app.js]: Loading commands...
+2020-10-22 03:51:21 - info [app.js]: 
+.-----------------------------------------------------------------------------------.
+|                                     Commands                                      |
+|-----------------------------------------------------------------------------------|
+|           File            |               Aliases               |  Type  | Status |
+|---------------------------|-------------------------------------|--------|--------|
+| setadminrole.js           | setar, sar                          | admin  | pass   |
+| setautokick.js            | setak, sak                          | admin  | pass   |
+| setautorole.js            | setaur, saur                        | admin  | pass   |
+| setcommandpoints.js       | setcp, scp                          | admin  | pass   |
+| setcrownchannel.js        | setcc, scc                          | admin  | pass   |
+| setcrownmessage.js        | setcrownmsg, setcm, scm             | admin  | pass   |
+| setcrownrole.js           | setcr, scr                          | admin  | pass   |
+| setcrownschedule.js       | setcs, scs                          | admin  | pass   |
+| setfarewellchannel.js     | setfc, sfc                          | admin  | pass   |
+| setfarewellmessage.js     | setfarewellmsg, setfm, sfm          | admin  | pass   |
+| setmemberlog.js           | setmeml, smeml                      | admin  | pass   |
+| setmessagedeletelog.js    | setmsgdeletelog, setmdl, smdl       | admin  | pass   |
+| setmessageeditlog.js      | setmsgeditlog, setmel, smel         | admin  | pass   |
+| setmessagepoints.js       | setmsgpoints, setmp, smp            | admin  | pass   |
+| setmodchannels.js         | setmodcs, setmcs, smcs              | admin  | pass   |
+| setmodlog.js              | setml, sml                          | admin  | pass   |
+| setmodrole.js             | setmr, smr                          | admin  | pass   |
+| setmuterole.js            | setmur, smur                        | admin  | pass   |
+| setnicknamelog.js         | setnnl, snnl                        | admin  | pass   |
+| setprefix.js              | setp, sp                            | admin  | pass   |
+| setrolelog.js             | setrl, srl                          | admin  | pass   |
+| setstarboardchannel.js    | setstc, sstc                        | admin  | pass   |
+| setsystemchannel.js       | setsc, ssc                          | admin  | pass   |
+| settings.js               | set, s, config, conf                | admin  | pass   |
+| setverificationchannel.js | setvc, svc                          | admin  | pass   |
+| setverificationmessage.js | setverificationmsg, setvm, svm      | admin  | pass   |
+| setverificationrole.js    | setvr, svr                          | admin  | pass   |
+| setvoicepoints.js         | setvp, svp                          | admin  | pass   |
+| setwelcomechannel.js      | setwc, swc                          | admin  | pass   |
+| setwelcomemessage.js      | setwelcomemsg, setwm, swm           | admin  | pass   |
+| togglecommand.js          | togglec, togc, tc                   | admin  | pass   |
+| togglepoints.js           | togglep, togp                       | admin  | pass   |
+| togglerandomcolor.js      | togglerc, togrc, trc                | admin  | pass   |
+| toggletype.js             | togglet, togt, tt                   | admin  | pass   |
+| color.js                  | changecolor, colour, c              | color  | pass   |
+| colors.js                 | colorlist, colours, cols, cs        | color  | pass   |
+| createcolor.js            | cc                                  | color  | pass   |
+| createdefaultcolors.js    | cdc                                 | color  | pass   |
+| randomcolor.js            | rc                                  | color  | pass   |
+| 8ball.js                  | fortune                             | fun    | pass   |
+| bird.js                   |                                     | fun    | pass   |
+| cat.js                    | kitten, kitty                       | fun    | pass   |
+| catfact.js                | cf                                  | fun    | pass   |
+| coinflip.js               | cointoss, coin, flip                | fun    | pass   |
+| dog.js                    | puppy, pup                          | fun    | pass   |
+| dogfact.js                | df                                  | fun    | pass   |
+| duck.js                   |                                     | fun    | pass   |
+| emojify.js                | sayemoji                            | fun    | pass   |
+| fox.js                    |                                     | fun    | pass   |
+| meme.js                   |                                     | fun    | pass   |
+| roll.js                   | dice, r                             | fun    | pass   |
+| rps.js                    |                                     | fun    | pass   |
+| say.js                    |                                     | fun    | pass   |
+| shibe.js                  |                                     | fun    | pass   |
+| solotrivia.js             | solotriv, striv, solot, st          | fun    | pass   |
+| thouart.js                | elizabethan, ta                     | fun    | pass   |
+| topics.js                 | triviatopics, categories, ts        | fun    | pass   |
+| trivia.js                 | triv, t                             | fun    | pass   |
+| trumptweet.js             | trump                               | fun    | pass   |
+| yesno.js                  | yn                                  | fun    | pass   |
+| yomomma.js                | yourmom, yomamma, yomama, ym        | fun    | pass   |
+| youtube.js                | yt                                  | fun    | pass   |
+| admins.js                 |                                     | info   | pass   |
+| aliases.js                | alias, ali, a                       | info   | pass   |
+| avatar.js                 | profilepic, pic, ava                | info   | pass   |
+| botinfo.js                | bot, bi                             | info   | pass   |
+| channelinfo.js            | channel, ci                         | info   | pass   |
+| emojis.js                 | e                                   | info   | pass   |
+| findid.js                 | find, id                            | info   | pass   |
+| gallery.js                | art                                 | info   | pass   |
+| help.js                   | commands, h                         | info   | pass   |
+| inviteme.js               | invite, invme, im                   | info   | pass   |
+| members.js                | memberstatus                        | info   | pass   |
+| mods.js                   |                                     | info   | pass   |
+| permissions.js            | perms                               | info   | pass   |
+| ping.js                   |                                     | info   | pass   |
+| prefix.js                 | pre                                 | info   | pass   |
+| roleinfo.js               | role, ri                            | info   | pass   |
+| servercount.js            | usercount, sc, uc                   | info   | pass   |
+| servericon.js             | icon, i                             | info   | pass   |
+| serverinfo.js             | server, si                          | info   | pass   |
+| serverstaff.js            | staff                               | info   | pass   |
+| stats.js                  | statistics, metrics                 | info   | pass   |
+| supportserver.js          | support, ss                         | info   | pass   |
+| uptime.js                 | up                                  | info   | pass   |
+| userinfo.js               | whois, user, ui                     | info   | pass   |
+| feedback.js               | fb                                  | misc   | pass   |
+| nickname.js               | changenickname, nick, nn            | misc   | pass   |
+| reportbug.js              | bugreport, report, bug, rb, br      | misc   | pass   |
+| addrole.js                | giverole, addr, ar                  | mod    | pass   |
+| ban.js                    |                                     | mod    | pass   |
+| clearwarns.js             |                                     | mod    | pass   |
+| kick.js                   |                                     | mod    | pass   |
+| mute.js                   |                                     | mod    | pass   |
+| purge.js                  | clear                               | mod    | pass   |
+| purgebot.js               | clearbot                            | mod    | pass   |
+| removerole.js             | remover, rr                         | mod    | pass   |
+| setnickname.js            | setnn, snn                          | mod    | pass   |
+| slowmode.js               | slow, sm                            | mod    | pass   |
+| softban.js                |                                     | mod    | pass   |
+| unban.js                  |                                     | mod    | pass   |
+| unmute.js                 |                                     | mod    | pass   |
+| warn.js                   |                                     | mod    | pass   |
+| warnpurge.js              | purgewarn                           | mod    | pass   |
+| warns.js                  | warnings                            | mod    | pass   |
+| blast.js                  |                                     | owner  | pass   |
+| eval.js                   |                                     | owner  | pass   |
+| leaveguild.js             |                                     | owner  | pass   |
+| servers.js                | servs                               | owner  | pass   |
+| wipeallpoints.js          | wipeap, wap                         | owner  | pass   |
+| wipealltotalpoints.js     | wipeatp, watp                       | owner  | pass   |
+| wipepoints.js             | wipep, wp                           | owner  | pass   |
+| wipetotalpoints.js        | wipetp, wtp                         | owner  | pass   |
+| crown.js                  | crowned                             | points | pass   |
+| explainpoints.js          | explainp, ep, howtopoints, h2points | points | pass   |
+| givepoints.js             | gp                                  | points | pass   |
+| leaderboard.js            | top, lb, rankings                   | points | pass   |
+| points.js                 | p                                   | points | pass   |
+| pointsper.js              | pointsp, pp                         | points | pass   |
+| position.js               | pos                                 | points | pass   |
+| totalpoints.js            | totalp, tp                          | points | pass   |
+'-----------------------------------------------------------------------------------'
+2020-10-22 03:51:21 - info [app.js]: 18 event(s) found...
+2020-10-22 03:51:21 - info [app.js]: Loading event: debug
+2020-10-22 03:51:21 - info [app.js]: Loading event: error
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildCreate
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildDelete
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildMemberAdd
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildMemberRemove
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildMemberUpdate
+2020-10-22 03:51:21 - info [app.js]: Loading event: guildUpdate
+2020-10-22 03:51:21 - info [app.js]: Loading event: message
+2020-10-22 03:51:21 - info [app.js]: Loading event: messageDelete
+2020-10-22 03:51:21 - info [app.js]: Loading event: messageDeleteBulk
+2020-10-22 03:51:21 - info [app.js]: Loading event: messageReactionAdd
+2020-10-22 03:51:21 - info [app.js]: Loading event: messageReactionRemove
+2020-10-22 03:51:21 - info [app.js]: Loading event: messageUpdate
+2020-10-22 03:51:21 - info [app.js]: Loading event: ready
+2020-10-22 03:51:21 - info [app.js]: Loading event: userUpdate
+2020-10-22 03:51:21 - info [app.js]: Loading event: voiceStateUpdate
+2020-10-22 03:51:21 - info [app.js]: Loading event: warn
+2020-10-22 03:51:21 - info [app.js]: 24 topic(s) found...
+2020-10-22 03:51:21 - info [app.js]: Loading topic: anime
+2020-10-22 03:51:21 - info [app.js]: Loading topic: cars
+2020-10-22 03:51:21 - info [app.js]: Loading topic: darksouls
+2020-10-22 03:51:21 - info [app.js]: Loading topic: dota2abilities
+2020-10-22 03:51:21 - info [app.js]: Loading topic: dota2items
+2020-10-22 03:51:21 - info [app.js]: Loading topic: elements
+2020-10-22 03:51:21 - info [app.js]: Loading topic: finalfantasy
+2020-10-22 03:51:21 - info [app.js]: Loading topic: gameofthrones
+2020-10-22 03:51:21 - info [app.js]: Loading topic: greekmyth
+2020-10-22 03:51:21 - info [app.js]: Loading topic: harrypotter
+2020-10-22 03:51:21 - info [app.js]: Loading topic: leagueoflegends
+2020-10-22 03:51:21 - info [app.js]: Loading topic: leagueults
+2020-10-22 03:51:21 - info [app.js]: Loading topic: overwatch
+2020-10-22 03:51:21 - info [app.js]: Loading topic: slogans
+2020-10-22 03:51:21 - info [app.js]: Loading topic: sports
+2020-10-22 03:51:21 - info [app.js]: Loading topic: starwars
+2020-10-22 03:51:21 - info [app.js]: Loading topic: uscapitals
+2020-10-22 03:51:21 - info [app.js]: Loading topic: usflags
+2020-10-22 03:51:21 - info [app.js]: Loading topic: usmap
+2020-10-22 03:51:21 - info [app.js]: Loading topic: usstateabbreviations
+2020-10-22 03:51:21 - info [app.js]: Loading topic: videogames
+2020-10-22 03:51:21 - info [app.js]: Loading topic: worldcapitals
+2020-10-22 03:51:21 - info [app.js]: Loading topic: worldflags
+2020-10-22 03:51:21 - info [app.js]: Loading topic: worldmap
+2020-10-22 03:51:22 - info [app.js]: Updating database and scheduling jobs...
+2020-10-22 03:51:22 - error [app.js]: F is not defined
+{
+  "stack": "ReferenceError: F is not defined
+    at module.exports (/home/container/src/events/ready.js:102:1)
+    at Client.emit (events.js:315:20)
+    at WebSocketManager.triggerClientReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:431:17)
+    at WebSocketManager.checkShardsReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:415:10)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:197:14)
+    at WebSocketShard.emit (events.js:315:20)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:475:12)
+    at WebSocketShard.onPacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:447:16)
+    at WebSocketShard.onMessage (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/container/node_modules/ws/lib/event-target.js:125:16)"
+}
+2020-10-22 04:02:53 - info [app.js]: beastcharizard56#7482 user tag changed to beastcharizard#7482
+2020-10-22 04:37:06 - info [app.js]: brkyygmrky#9084 user tag changed to Ich Bin Berkay#9084
+2020-10-22 05:10:49 - info [app.js]: SGG | 𝖗𝖆𝖍𝖒𝖆𝖓#9460 user tag changed to SGG | Rahman#9460
+2020-10-22 05:12:05 - info [app.js]: luisa u3u#9592 user tag changed to ᶜᵃᵐⁱ#9592
+2020-10-22 05:27:31 - info [app.js]: ARABİC KİVİ#9910 user tag changed to !-KİVİ-!(?)#9910
+2020-10-22 05:43:58 - info [app.js]: AdoptMe-Trading: ✘ |𝕽𝖔𝖉𝖃¹⁴¹✦#6890 has joined the server
+2020-10-22 05:44:24 - info [app.js]: AdoptMe-Trading: Kayce♡#4042 has left the server
+2020-10-22 06:22:22 - info [app.js]: AdoptMe-Trading: ⭐BurakYT⭐#2141 has left the server
+2020-10-22 06:22:40 - info [app.js]: AdoptMe-Trading: LeftEye-#0598 has left the server
+2020-10-22 06:36:25 - info [app.js]: 🅳🅴🅰🅳 🅺🆁🅰🅻🅻#0001 user tag changed to meraba_bentürk#0001
+2020-10-22 06:39:46 - info [app.js]: meraba_bentürk#0001 user tag changed to meraba_bentürk#1111
+2020-10-22 06:43:12 - info [app.js]: !     N!ØX'   र✦#9999 user tag changed to !     N!ØX'   ₪✦#9999
+2020-10-22 06:43:43 - info [app.js]: !     N!ØX'   ₪✦#9999 user tag changed to !     N!ØX'   ✡✦#9999
+2020-10-22 06:51:17 - info [app.js]: AdoptMe-Trading: SGG egehan#1223 has joined the server
+2020-10-22 07:00:50 - info [app.js]: ໙Reaxy#5291 user tag changed to ໙ Reaxy#5291
+2020-10-22 07:00:55 - info [app.js]: !-KİVİ-!(?)#9910 user tag changed to !-1KİVİ-!(?)#9910
+2020-10-22 07:03:12 - info [app.js]: ቆ babyn0a ᗐ#0666 user tag changed to ቆ babyn0a ♆#0666
+2020-10-22 07:10:26 - info [app.js]: ᘔαiηƬ∳#5555 user tag changed to ᘔαiηƬ#0001
+2020-10-22 07:22:13 - info [app.js]: ömer#9999 user tag changed to △Ö𝓂𝑒𝓇#9999
+2020-10-22 07:31:56 - info [app.js]: AdoptMe-Trading: Strafe Gameplays#4080 has left the server
+2020-10-22 07:44:17 - info [app.js]: ponçiğğ#9415 user tag changed to ! Jêstêr ponçiğğ#9415
+2020-10-22 07:51:33 - info [app.js]: !     N!ØX'   ✡✦#9999 user tag changed to !     N!ØX'   ✡✦#3131
+2020-10-22 07:51:34 - info [app.js]: ᘔαiηƬ#0001 user tag changed to ᘔαiηƬ 🌟#0001
+2020-10-22 07:53:29 - info [app.js]: ^o^X_Si2der1+_+O_O#7424 user tag changed to Si2der1#7424
+2020-10-22 07:58:43 - info [app.js]: !     N!ØX'   ✡✦#3131 user tag changed to !     KRALN!ØX'   ✡✦#0009
+2020-10-22 08:05:18 - info [app.js]: マ animebaki#3779 user tag changed to xMertAbiYT#3779
+2020-10-22 08:09:40 - info [app.js]: MrSharkTR#5821 user tag changed to Er MrSharkTR#5821
+2020-10-22 08:11:07 - info [app.js]: AdoptMe-Trading: yalnız çocuk#6050 has left the server
+2020-10-22 08:11:36 - info [app.js]: Er MrSharkTR#5821 user tag changed to ER |MrSharkTR#5821
+2020-10-22 08:41:08 - info [app.js]: HamzaK#1307 user tag changed to HxmzaK#1307
+2020-10-22 08:43:33 - info [app.js]: 𓆉 ⓈⓉⒶⒸⓎ   ㋛#1206 user tag changed to Stacy  (ง'̀-'́)ง#1206
+2020-10-22 08:48:18 - info [app.js]: meraba_bentürk#1111 user tag changed to Dead Krall#0001
+2020-10-22 08:54:28 - info [app.js]: SGG | Rahman#9460 user tag changed to Rahman#9460
+2020-10-22 08:55:59 - info [app.js]: |™[G.H.O.S.T.]™|#9585 user tag changed to UMUT403#9585
+2020-10-22 08:56:04 - info [app.js]: UMUT403#9585 user tag changed to umut4031#9585
+2020-10-22 09:21:01 - info [app.js]: AdoptMe-Trading: Kainos|𝑲𝒆𝒏𝒏𝒊𝒔#1965 has left the server
+2020-10-22 09:21:14 - info [app.js]: AdoptMe-Trading: vαнşeт  ¿ iFurkanBey#0001 has left the server
+2020-10-22 09:38:08 - info [app.js]: кöηιgℓιcн ✾ V E G̴ ✾ S#5889 user tag changed to V E G̴ ✾ S كفن#5889
+2020-10-22 09:48:06 - info [app.js]: Deus Vis &Mega#2016 user tag changed to Deus Vis &Rose#2016
+2020-10-22 09:51:22 - info [app.js]: AdoptMe-Trading: ✘ |𝕽𝖔𝖉𝖃¹⁴¹✦#6890 has left the server
+2020-10-22 09:51:49 - info [app.js]: scp-nugget#8959 user tag changed to MTF UNİT TAU-1 BİG BROTHER#8959
+2020-10-22 09:52:00 - info [app.js]: V E G̴ ✾ S كفن#5889 user tag changed to V E G̴ ✾ S رجل#5889
+2020-10-22 10:16:25 - info [app.js]: erenk#5787 user tag changed to Ash💛#5787
+2020-10-22 10:23:01 - info [app.js]: AdoptMe-Trading: yurii12345#3500 has joined the server
+2020-10-22 10:42:59 - info [app.js]: AdoptMe-Trading: Syn_oise#7384 has joined the server
+2020-10-22 10:54:11 - info [app.js]: umut4031#9585 user tag changed to G.H.O.S.T.#9585
+2020-10-22 10:54:21 - info [app.js]: G.H.O.S.T.#9585 user tag changed to [G.H.O.S.T.]#9585
+2020-10-22 11:02:19 - info [app.js]: — ꒰‧⁺ 🐝 Kadi  ˀ  *ೃ༄#2849 user tag changed to — ꒰‧⁺ 🐬 Kadi  ˀ  *ೃ༄#2849
+2020-10-22 11:02:37 - info [app.js]: Tuzlu limon MRKansero#1338 user tag changed to sad limon MRKansero#1338
+2020-10-22 11:05:11 - info [app.js]: ᴳᵒᵈ乡ఞReapeR★△ ⍭ ♆#0001 user tag changed to 'N'ᴳᵒᵈ乡ఞReapeR★△ ⍭ ♆#0001
+2020-10-22 11:14:37 - info [app.js]: sezaief#2612 user tag changed to gumball#2612
+2020-10-22 11:15:57 - info [app.js]: gumball#2612 user tag changed to _gumball_#2612
+2020-10-22 11:33:01 - info [app.js]: AdoptMe-Trading: 《Cart0fLaPachet》ﾉʰᶜ#4618 has left the server
+2020-10-22 11:33:38 - info [app.js]: xMertAbiYT#3779 user tag changed to Mercy0001#3779
+2020-10-22 11:35:27 - info [app.js]: 'ᴿᶻᴴBerat_BY123#8851 user tag changed to Berat_BY123#8851
+2020-10-22 11:47:46 - info [app.js]: ISorions#6730 user tag changed to yeetyeeet#6730
+2020-10-22 11:53:27 - info [app.js]: 🌼SgG DaİsY🌼#3649 user tag changed to 🌼SgG DaİsY🌼Ama Üzgün Olan#3649
+2020-10-22 11:58:53 - info [app.js]: △Ö𝓂𝑒𝓇#9999 user tag changed to △߷ Ö𝓂𝑒𝓇#9999
+2020-10-22 12:02:03 - info [app.js]: 'N'ᴳᵒᵈ乡ఞReapeR★△ ⍭ ♆#0001 user tag changed to '?'ᴳᵒᵈ乡ఞReapeR★△ ⍭ ♆#0001
+2020-10-22 12:09:49 - info [app.js]: AdoptMe-Trading: SGG |Hasan Ay#8274 has left the server
+2020-10-22 12:11:05 - info [app.js]: aaas#5441 user tag changed to Dipper#5441
+2020-10-22 12:15:38 - info [app.js]: TR|SALİH#2196 user tag changed to 𝓣𝓡|𝓢𝓐𝓛İ𝓗#2196
+2020-10-22 12:27:42 - info [app.js]: AdoptMe-Trading: ₪ KKaajJ103#4753 has left the server
+2020-10-22 12:29:19 - info [app.js]: △߷ Ö𝓂𝑒𝓇#9999 user tag changed to △ Ö𝓂𝑒𝓇#9999
+2020-10-22 12:42:38 - info [app.js]: ! Jêstêr ponçiğğ#9415 user tag changed to bıraktı#9415
+2020-10-22 12:52:56 - info [app.js]: Berat_BY123#8851 user tag changed to ム Berat_BY123#8851
+2020-10-22 13:05:24 - info [app.js]: ╚»★ぱ ✦`JR ๖ۜRUSH★«╝#7496 user tag changed to ぱ ✦`JR ๖ۜRUSH#7496
+2020-10-22 13:08:51 - info [app.js]: bıraktı#9415 user tag changed to ponçiğğ#9415
+2020-10-22 13:20:34 - info [app.js]: ! Dark Pikachu#7744 user tag changed to ! Dark#7744
+2020-10-22 13:28:42 - info [app.js]: ꋔㄔ'Polis|! PΞGRΛ DT |♪𝕕𝕠𝕣𝕦𝕜♪ |お»#7926 user tag changed to ❈ꋔㄔ'Polis|! PΞGRΛ DT |♪𝕕𝕠𝕣𝕦𝕜♪ |#7926
+2020-10-22 13:31:06 - info [app.js]: swimue#8526 user tag changed to swimue#9999
+2020-10-22 13:34:01 - info [app.js]: you're the imposter#9164 user tag changed to laser ay лол#9164
+2020-10-22 13:38:14 - info [app.js]: laser ay лол#9164 user tag changed to hyper.#9164
+2020-10-22 13:43:33 - info [app.js]: AdoptMe-Trading: Pee.Drinking.Donut#6272 has joined the server
+2020-10-22 13:43:54 - info [app.js]: AdoptMe-Trading: Pee.Drinking.Donut#6272 has left the server
+2020-10-22 13:52:08 - info [app.js]: ItzPıyrz#2519 user tag changed to Gerçek Pattis#2519
+2020-10-22 13:55:18 - info [app.js]: AdoptMe-Trading: 레이(Rey0627pro)#4385 has left the server
+2020-10-22 13:55:30 - info [app.js]: AdoptMe-Trading: Bryan🎃#3686 has left the server
+2020-10-22 14:09:26 - info [app.js]: AdoptMe-Trading: ϟ oDaiCuBogdanﾉʰᶜﾉʙꜱ💙#1132 has left the server
+2020-10-22 14:10:40 - info [app.js]: Ӝ αм ƒσявє#4869 user tag changed to Ӝ ƛԼƑƛ ƛM ƑƠƦƁЄ#4869
+2020-10-22 14:10:42 - info [app.js]: Tokyo Ghoul#7901 user tag changed to Sasuke Uchiha#4440
+2020-10-22 14:24:35 - info [app.js]: O_O#0408 user tag changed to Poyraz#0408
+2020-10-22 14:27:41 - info [app.js]: AdoptMe-Trading: AS'Subay#0763 has joined the server
+2020-10-22 14:33:45 - info [app.js]: ☁-𝑳𝒊𝒍𝒊𝒂-☁#5115 user tag changed to ☁🌷-𝑳𝒊𝒍𝒊𝒂-☁🌷#5115
+2020-10-22 14:34:14 - info [app.js]: ☁🌷-𝑳𝒊𝒍𝒊𝒂-☁🌷#5115 user tag changed to ☁-𝑳𝒊𝒍𝒊𝒂-☁#5115
+2020-10-22 14:38:27 - info [app.js]: AdoptMe-Trading: 🌼SgG DaİsY🌼Ama Üzgün Olan#3649 has left the server
+2020-10-22 14:43:47 - info [app.js]: AdoptMe-Trading: sofi_014#1944 has left the server
+2020-10-22 14:47:47 - info [app.js]: ! ƧƛƊƁƛƳ ✞SubRaiˇⱢ✞#0001 user tag changed to ! Ð3S ✰ Âzrâîl~î Tâwlôs#0001
+2020-10-22 14:48:12 - info [app.js]: Deus Vis &Rose#2016 user tag changed to Deus Vis#2016
+2020-10-22 14:49:04 - info [app.js]: AdoptMe-Trading: SGG-RÜZO#8560 has left the server
+2020-10-22 14:51:23 - info [app.js]: XxmaryuwuxX#4172 user tag changed to XxXimenaxX#4172
+2020-10-22 14:58:44 - info [app.js]: ÖLDÜ... ^_^#1063 user tag changed to Ölü#1063
+2020-10-22 15:00:31 - info [app.js]: ᵂᵃᵖᵖᵉʳ ℓαη¢нєѕтєя ⊱#6666 user tag changed to ᵂᵃᵖᵖᵉʳ ama panda olan#6666
+2020-10-22 15:10:06 - info [app.js]: MR | ! Seth ' Flex#0001 user tag changed to MR |  Seth ' Flex#0001
+2020-10-22 15:10:55 - info [app.js]: MR |  Seth ' Flex#0001 user tag changed to MR | Seth ' Flex#0001
+2020-10-22 15:12:47 - info [app.js]: This is the gods: Akkuya#0002 has joined the server
+2020-10-22 15:16:27 - info [app.js]: Virajlının Adamı silver wolf#7808 user tag changed to silver wolf#7808
+2020-10-22 15:17:27 - info [app.js]: This is the gods: a̶̓̿w̵͌͝e̵̓̚s̷̈͝o̸̊́m̸̀͑e̸͆̅𝕽𝕴𝕽𝕴#5668 has joined the server
+2020-10-22 15:18:30 - info [app.js]: Calypso has left This is the gods
+2020-10-22 15:19:57 - info [app.js]: silver wolf#7808 user tag changed to Virajlının Adamı Silver Wolf#7808
+2020-10-22 15:23:58 - info [app.js]: El de arriba juega free fire#6333 user tag changed to Mikatito7u7#6333
+2020-10-22 15:44:04 - info [app.js]: ✧ " Zodrix'ΛKΛ#0777 user tag changed to " Zodrix'ΛKΛ#0777
+2020-10-22 15:44:19 - info [app.js]: 🔱  L.U.C.Y 🔱#6891 user tag changed to ♛ღ ℰ↻R↑ℕ ღ♛#6891
+2020-10-22 15:47:27 - info [app.js]: 🌸Peachii🍑🌸#0377 user tag changed to 🌸Monokumaette🌸#0377
+2020-10-22 15:57:34 - info [app.js]: " Zodrix'ΛKΛ#0777 user tag changed to " Zodrix'ΛKΛxVYRΛL#0777
+2020-10-22 16:01:37 - info [app.js]: AdoptMe-Trading: Furkan Oyunda#6912 has left the server
+2020-10-22 16:04:36 - info [app.js]: Bay Pisi#7121 user tag changed to Oh This Is Cat#7121
+2020-10-22 16:06:50 - info [app.js]: Oh This Is Cat#7121 user tag changed to Bay Pisi#7121
+2020-10-22 16:32:10 - info [app.js]: 🍭Cripsy🍭#9177 user tag changed to 🍭🍭#9177
+2020-10-22 16:34:41 - info [app.js]: 😎Ali but level 2😎#5255 user tag changed to 😎Ali but level 10😎#5255
+2020-10-22 16:36:28 - info [app.js]: AdoptMe-Trading: 𝕐 𝕌 𝕊 𝔼 𝔽 𝕐 𝕌 𝕊#0671 has left the server
+2020-10-22 16:38:56 - info [app.js]: MR | Seth ' Flex#0001 user tag changed to MR P. | Seth ' Flex#0001
+2020-10-22 16:41:13 - info [app.js]: 😎Ali but level 10😎#5255 user tag changed to ∀R⁶⁶⁶ İCE'βεψ#5255
+2020-10-22 16:44:22 - info [app.js]: ecordi#4880 user tag changed to ecorci#4880
+2020-10-22 16:45:23 - info [app.js]: ᘔαiηƬ 🌟#0001 user tag changed to SαiηƬ#0001
+2020-10-22 17:08:49 - info [app.js]: ༄𝚎𝚕𝚒𝚣𝚊𝚋𝚝𝚑 𝚊𝚏𝚝𝚘𝚗༄#7661 user tag changed to ༄𝚎𝚕𝚒𝚣𝚊𝚋𝚎𝚝𝚑 𝚊𝚏𝚝𝚘𝚗༄#7661
+2020-10-22 17:16:46 - info [app.js]: AdoptMe-Trading: Bim.Reis#2447 has left the server
+2020-10-22 17:22:43 - info [app.js]: ocean#4586 user tag changed to köpke#4586
+2020-10-22 17:37:12 - info [app.js]: AdoptMe-Trading: coy ✿#0708 has joined the server
+2020-10-22 17:37:17 - info [app.js]: AdoptMe-Trading: maddogg#1919 has joined the server
+2020-10-22 17:37:45 - info [app.js]: AdoptMe-Trading: coy ✿#0708 has left the server
+2020-10-22 17:41:47 - info [app.js]: 々! Neѕѕιe `๖𝔣𝔢𝔶𝔷𝔞𝔫𝔲𝔯々⏣ᵖᵃʳᶤˢ#0009 user tag changed to 々! Neѕѕιe `๖𝔣𝔢𝔶𝔷𝔞𝔫𝔲𝔯✮⏣ᵖᵃʳᶤˢ#0009
+2020-10-22 18:07:35 - info [app.js]: Rahman#9460 user tag changed to SGG | Rahman#9460
+2020-10-22 18:30:29 - info [app.js]: hsotaku#9032 user tag changed to kurama (9 caldas)#9032
+2020-10-22 18:36:15 - info [app.js]: kurama (9 caldas)#9032 user tag changed to PaIn bUgAdO#9032
+2020-10-22 18:44:33 - info [app.js]: AdoptMe-Trading: ĽØŘĐ [ĂŤÂĶÂÑ] ♡#0689 has left the server
+2020-10-22 18:50:11 - info [app.js]: ➹ 丂   Spooky Lx고#5900 user tag changed to ➹ 丂Вьяшх хчжгш고#5900
+2020-10-22 18:52:41 - info [app.js]: » Allah'ın Yıkığı#0001 user tag changed to » İsra#0001
+2020-10-22 18:54:06 - info [app.js]: 🎮Grupo de Roblox Sub🎮: Xxxtentacion#9249 has left the server

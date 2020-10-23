@@ -1,0 +1,14 @@
+2020-10-22 03:51:22 - error [app.js]: F is not defined
+{
+  "stack": "ReferenceError: F is not defined
+    at module.exports (/home/container/src/events/ready.js:102:1)
+    at Client.emit (events.js:315:20)
+    at WebSocketManager.triggerClientReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:431:17)
+    at WebSocketManager.checkShardsReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:415:10)
+    at WebSocketShard.<anonymous> (/home/container/node_modules/discord.js/src/client/websocket/WebSocketManager.js:197:14)
+    at WebSocketShard.emit (events.js:315:20)
+    at WebSocketShard.checkReady (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:475:12)
+    at WebSocketShard.onPacket (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:447:16)
+    at WebSocketShard.onMessage (/home/container/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/container/node_modules/ws/lib/event-target.js:125:16)"
+}
